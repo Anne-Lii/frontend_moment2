@@ -3,7 +3,49 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header {
-    height: 150px;
-    background-color: aquamarine;
+    width: 1500px;
+    max-width: 80%;
+    margin: auto;   
+}
+
+header img {
+    width: 300px;
+    max-width: 50%;
+    padding-top: 20px;
+}
+
+main {
+    width: 1500px;
+    max-width: 80%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 100px 0 100px 0;
+}
+
+label {    
+    font-size: 24px;
+    
+}
+
+#sok {
+    font-size: 20px;
+    width: 1000px;
+    max-width: 50%;
+    height: 35px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    
+}
+
+ul {
+    list-style: none;
 }
