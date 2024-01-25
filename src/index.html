@@ -19,15 +19,18 @@
         <label for="sok">Sök:</label><br>
         <input id="sok" type="text" placeholder="Sök efter kursnamn eller kurskod">
 
-        <h2>Kurskod</h2>
-        <ul id="kurser"></ul>
-
-        <h2>Namn</h2>
-        <ul id="namn"></ul>
-
-        <h2>Progression</h2>
-        <ul id="progression"></ul>
-    </main>
-    
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th id="kodknapp" sorting = "default">Kurskod</th>
+                        <th id="kursknapp" sorting = "default">Kursnamn</th>
+                        <th id="progknapp" sorting = "default">Progression</th>
+                    </tr>
+                </thead>
+                <tbody id="list"></tbody>
+            </table>           
+        </div>
+    </main>    
 </body>
 </html>
